@@ -1,1 +1,1 @@
-# DeepLearning-Playground
+# AI-Playground
