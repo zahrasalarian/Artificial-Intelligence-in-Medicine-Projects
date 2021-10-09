@@ -6,7 +6,12 @@ First, to gain a better understanding of the data, I plotted single-feature diag
 You can access the dataset [here](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra#).
 
 ## Second project
-The aim of this project is to implement a multilayer perceptron neural network to classify the cifar10 dataset.  
-This model was implemented using the Keras and Tensorflow libraries.  
-To pre-process the images, I first converted the pixel values from integers to decimals so that they were decimals when performing the operation and could be more accurate. Then divide them by 255.0 so that all the pixels are in the range of 0 to 1.  
-The next step is to design a multilayer perceptron neural network for which the best combination of hyperparameters must be achieved. First, for a one-unit model, the number of different nodes was tested and the best one was selected. Then, different activation functions were tested and their speed and accuracy were compared, the learning rate was evaluated using different optimizers and the best one was selected. Finally, the best number of epochs and batch size were selected. In the next step, Drop out method was used to prevent over-fitting and under-fitting. Finally, after training and testing the designed model, the results were reported in the notebook.
+This project aims to implement a multilayer perceptron neural network to classify the cifar10 dataset.  
+The model was implemented using the Keras and Tensorflow libraries.
+To pre-process the images, I first converted the pixel values from integers to decimals when operating and could be more accurate. Then divide them by 255.0 so that all the pixels are in the range of 0 to 1.
+The next step is to design a multilayer perceptron neural network for which the model must achieve the best combination of hyperparameters. To do this, I selected the following hyperparameters, respectively:  
+  1. Tested the number of nodes for a one-unit model, and selected the best one.  
+  2. Tested different activation functions, compared their speed and accuracy, and selected the best one.    
+  3. Evaluated the learning rate using various optimizers, and selected the best one.  
+  4. Determined the best number of epochs and batch size.  
+In the end, I used the Drop Out method to prevent over-fitting and under-fitting. Finally, after training and testing the designed model, the results were reported in the notebook.
