@@ -6,7 +6,7 @@ First, to gain a better understanding of the data, I plotted single-feature diag
 You can access the dataset [here](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra#).
 
 ## Second project
-This project aims to implement a multilayer perceptron neural network to classify the cifar10 dataset.  
+This project aims to implement a multilayer perceptron neural network to classify the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset.  
 The model was implemented using the Keras and Tensorflow libraries.
 To pre-process the images, I first converted the pixel values from integers to decimals when operating and could be more accurate. Then divide them by 255.0 so that all the pixels are in the range of 0 to 1.
 The next step is to design a multilayer perceptron neural network for which the model must achieve the best combination of hyperparameters. To do this, I selected the following hyperparameters, respectively:  
