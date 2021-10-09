@@ -16,3 +16,7 @@ The next step is to design a multilayer perceptron neural network for which the 
   4. Determined the best number of epochs and batch size.  
                                   
 In the end, I used the Drop Out method to prevent over-fitting and under-fitting. Finally, after training and testing the designed model, the results were reported in the notebook.
+
+## Third project
+This project aims to implement the Convolutional Neural Network on the Derma MNIST dataset.  
+In the preprocessing phase, I used the over-sampling solution to deal with the imbalance of the database. In this way, with the help of Image Data Generator, I created new photos for the class that had fewer photos, and in this way, I balanced the data set. Then, with the help of Keras and TensorFlow libraries, I implemented and fitted the CNN model and chose the best hyperparameters for it.
