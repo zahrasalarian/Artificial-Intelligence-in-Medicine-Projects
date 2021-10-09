@@ -20,3 +20,8 @@ In the end, I used the Drop Out method to prevent over-fitting and under-fitting
 ## Third project
 This project aims to implement the Convolutional Neural Network on the Derma MNIST dataset.  
 In the preprocessing phase, I used the over-sampling solution to deal with the imbalance of the database. In this way, with the help of Image Data Generator, I created new photos for the class that had fewer photos, and in this way, I balanced the data set. Then, with the help of Keras and TensorFlow libraries, I implemented and fitted the CNN model and chose the best hyperparameters for it.
+
+## Forth project
+The purpose of this project is to train a network to perform the semantic segmentation task.  
+In this project, the images of [this dataset](https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/) enter the neural network, and we will have one label for each output pixel.  In the preprocessing stage, Data Augmentation must be done, and in this case, all the changes that have been made to the original image must also be done on its mask.  
+I used the [Segmentation Models](https://github.com/qubvel/segmentation_models) library to access the pre-trained U-Net network. After that, with the help of fine-tuning, I first fitted only the last layer and then the whole network.
