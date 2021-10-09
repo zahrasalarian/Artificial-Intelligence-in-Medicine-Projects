@@ -13,5 +13,5 @@ The next step is to design a multilayer perceptron neural network for which the 
   1. Tested the number of nodes for a one-unit model, and selected the best one.  
   2. Tested different activation functions, compared their speed and accuracy, and selected the best one.    
   3. Evaluated the learning rate using various optimizers, and selected the best one.  
-  4. Determined the best number of epochs and batch size.  
+  4. Determined the best number of epochs and batch size.   
 In the end, I used the Drop Out method to prevent over-fitting and under-fitting. Finally, after training and testing the designed model, the results were reported in the notebook.
