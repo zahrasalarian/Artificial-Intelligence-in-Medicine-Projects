@@ -1,4 +1,4 @@
-# AI-Mini-Projects
+# Artificial-Intelligence-in-Medicine-Projects
 ## First project: Basic Machine Learning algorithms
 This project aims to identify breast cancer in patients using various machine learning algorithms, including Logistic Regression, SVM with linear kernel, SVM with RBF kernel, Decision Tree, and KNN.  
 I used the scikit-learn library to implement these algorithms, followed by the k-fold cross-validation method to assess their accuracy.  
